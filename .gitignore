@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+**/.idea/**
+**/cmake-build-debug/**
+**/cute_lib/**
+**/Test.cpp
+**/CMakeLists.txt
