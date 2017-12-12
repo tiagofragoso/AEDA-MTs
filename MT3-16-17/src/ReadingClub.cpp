@@ -150,7 +150,7 @@ bool ReadingClub::borrowBookFromCatalog(Book* book, User* reader) {
 
 void ReadingClub::addUserRecord(User* user) {
 
-	if (userRecords.empty() || userRecords.find(user) == userRecords.end()) userRecords.insert(user);
+	if (userRecords.empty() || userRecords.find(user) == userRecords.end()) userRecords.insert(UserRecord(user));
 
 }
 
